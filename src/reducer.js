@@ -3,11 +3,9 @@ import comments from './comments';
 import users from './users';
 
 const initialState = {
-	comments: [],
-	users: []
+		comments: [],
+		users: []
 };
-
-
 
 export const reducer = combineReducers({
 		comments,

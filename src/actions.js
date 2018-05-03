@@ -7,13 +7,11 @@ export const
 	THUMB_UP_COMMENT = 'THUMB_UP_COMMENT',
 	THUMB_DOWN_COMMENT = 'THUMB_DOWN_COMMENT';
 
-
-
 export const addComment = function addComment(text){
 	return {
-	type: ADD_COMMENT,
-	text,
-	id: uuid.v4()
+		type: ADD_COMMENT,
+		text,
+		id: uuid.v4()
 	}
 }
 
